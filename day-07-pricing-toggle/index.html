@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 07 - Interactive Pricing Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <p class="tagline">DAY 7 — JAVASCRIPT & CSS GRID</p>
+        <h1>Simple, Transparent Pricing</h1>
+        <p class="subtitle">Choose the plan that works best for your learning goals.</p>
+
+        <!-- Toggle Switch Section -->
+        <div class="toggle-container">
+            <span class="toggle-label">Monthly</span>
+            <label class="switch">
+                <input type="checkbox" id="pricing-toggle">
+                <span class="slider"></span>
+            </label>
+            <span class="toggle-label">Yearly <span class="discount">(Save 20%)</span></span>
+        </div>
+
+        <!-- Pricing Cards Grid -->
+        <div class="pricing-grid">
+
+            <!-- Starter Card -->
+            <div class="card">
+                <h3>Starter</h3>
+                <p class="card-desc">Perfect for beginners exploring web development.</p>
+                <div class="price-box">
+                    <span class="currency">$</span>
+                    <span class="price" id="price-starter">12</span>
+                    <span class="period" id="period-starter">/month</span>
+                </div>
+                <ul class="features">
+                    <li>✓ HTML & CSS Basics</li>
+                    <li>✓ 5 Practice Projects</li>
+                    <li>✓ Community Access</li>
+                </ul>
+                <button class="btn btn-secondary">Get Started</button>
+            </div>
+
+            <!-- Pro Card (Featured) -->
+            <div class="card featured">
+                <div class="badge">Most Popular</div>
+                <h3>Pro Developer</h3>
+                <p class="card-desc">For serious learners building portfolio projects.</p>
+                <div class="price-box">
+                    <span class="currency">$</span>
+                    <span class="price" id="price-pro">29</span>
+                    <span class="period" id="period-pro">/month</span>
+                </div>
+                <ul class="features">
+                    <li>✓ Everything in Starter</li>
+                    <li>✓ JavaScript & DOM Manipulation</li>
+                    <li>✓ CSS Grid & Responsive Design</li>
+                    <li>✓ Code Reviews & Feedback</li>
+                </ul>
+                <button class="btn btn-primary">Join Pro</button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
