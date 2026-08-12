@@ -13,3 +13,4 @@ Welcome to my daily web development practice repository! Here I document my jour
 | **Day 05** | `day-05-navbar` | Responsive navigation bar | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-05-navbar/) |
 | **Day 06** | `day-06-services-grid` | CSS Grid service cards | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-06-services-grid/) |
 | **Day 07** | `day-07-pricing-toggle` | Interactive pricing card with JS toggle switch | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-07-pricing-toggle/) |`
+| Day 08 | `day-08-testimonial-card` | Interactive testimonial card with JS counter | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-08-testimonial-card/) |
