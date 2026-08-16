@@ -5,13 +5,15 @@ Welcome to my daily web development practice repository! Here I document my jour
 ## 📌 Project Log
 
 | Day | Project Name | Description / Tech Stack | Live Demo |
-|---|---|---|---|
+| :--- | :--- | :--- | :--- |
 | **Day 01** | `day-01-about-me` | Personal HTML bio page | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-01-about-me/) |
 | **Day 02** | `day-02-profile-card` | CSS styled profile card | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-02-profile-card/) |
 | **Day 03** | `day-03-contact-form` | HTML/CSS contact form | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-03-contact-form/) |
 | **Day 04** | `day-04-about-me` | Refined profile layout | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-04-about-me/) |
 | **Day 05** | `day-05-navbar` | Responsive navigation bar | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-05-navbar/) |
 | **Day 06** | `day-06-services-grid` | CSS Grid service cards | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-06-services-grid/) |
-| **Day 07** | `day-07-pricing-toggle` | Interactive pricing card with JS toggle switch | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-07-pricing-toggle/) |`
-| Day 08 | `day-08-testimonial-card` | Interactive testimonial card with JS counter | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-08-testimonial-card/) |
-| Day 09 | `day-09-counter-app` | Interactive counter with dynamic color changes | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-09-counter-app/) |
+| **Day 07** | `day-07-pricing-toggle` | Interactive pricing card with JS toggle switch | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-07-pricing-toggle/) |
+| **Day 08** | `day-08-testimonial-card` | Interactive testimonial card with JS counter | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-08-testimonial-card/) |
+| **Day 09** | `day-09-counter-app` | Interactive counter with dynamic color changes | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-09-counter-app/) |
+| **Day 10** | `day-10-cee-trio` | Photography showcase gallery with categorized tabs | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-10-cee-trio/) |
+| **Day 11** | `day-11-pricing-toggle` | Interactive pricing toggle component with JS | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-11-pricing-toggle/) |
