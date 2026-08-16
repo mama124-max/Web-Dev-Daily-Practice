@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeeTrio Packages & Pricing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="pricing-container">
+        <div class="pricing-header">
+            <span class="tag">INVESTMENT</span>
+            <h2>Choose Your Package</h2>
+            <p>Select your session type to view package rates</p>
+
+            <!-- Toggle Switch -->
+            <div class="toggle-wrapper">
+                <span id="label-solo" class="toggle-label active">Solo Session</span>
+                <label class="switch">
+                    <input type="checkbox" id="pricing-toggle" onchange="togglePricing()">
+                    <span class="slider"></span>
+                </label>
+                <span id="label-duo" class="toggle-label">Duo / Group Session</span>
+            </div>
+        </div>
+
+        <!-- Pricing Cards Grid -->
+        <div class="pricing-grid">
+
+            <!-- Basic Card -->
+            <div class="pricing-card">
+                <h3 class="package-name">Essential</h3>
+                <p class="package-desc">Quick, high-quality portrait session</p>
+                <div class="price-box">
+                    <span class="currency">D</span>
+                    <span class="price" id="price-essential">800</span>
+                </div>
+                <ul class="features">
+                    <li>✨ 3 Edited High-Res Photos</li>
+                    <li>📸 1 Outfit Look</li>
+                    <li>⏱️ 30 Minute Session</li>
+                    <li>📱 Soft copies via Google Drive</li>
+                </ul>
+                <button class="btn btn-outline">Book Essential</button>
+            </div>
+
+            <!-- Featured / Popular Card -->
+            <div class="pricing-card popular">
+                <span class="popular-badge">MOST POPULAR</span>
+                <h3 class="package-name">Signature Glam</h3>
+                <p class="package-desc">Full editorial experience with lighting</p>
+                <div class="price-box">
+                    <span class="currency">D</span>
+                    <span class="price" id="price-signature">1,200</span>
+                </div>
+                <ul class="features">
+                    <li>✨ 6 Edited High-Res Photos</li>
+                    <li>📸 Up to 2 Outfit Looks</li>
+                    <li>⏱️ 1 Hour Studio/Location Session</li>
+                    <li>💡 Full Direct-Flash / Studio Lighting</li>
+                    <li>🚀 Priority 48-Hour Delivery</li>
+                </ul>
+                <button class="btn btn-gold">Book Signature</button>
+            </div>
+
+            <!-- Premium Card -->
+            <div class="pricing-card">
+                <h3 class="package-name">Ultimate Luxe</h3>
+                <p class="package-desc">Complete coverage for events or outfits</p>
+                <div class="price-box">
+                    <span class="currency">D</span>
+                    <span class="price" id="price-ultimate">2,000</span>
+                </div>
+                <ul class="features">
+                    <li>✨ 10+ Edited High-Res Photos</li>
+                    <li>📸 Unlimited Outfit Changes</li>
+                    <li>⏱️ 2 Hours Full Session</li>
+                    <li>🎬 Short Reels / TikTok Video Included</li>
+                    <li>🌟 Raw Shots Included</li>
+                </ul>
+                <button class="btn btn-outline">Book Luxe</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
