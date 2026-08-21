@@ -17,3 +17,4 @@ Welcome to my daily web development practice repository! Here I document my jour
 | **Day 09** | `day-09-counter-app` | Interactive counter with dynamic color changes | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-09-counter-app/) |
 | **Day 10** | `day-10-cee-trio` | Photography showcase gallery with categorized tabs | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-10-cee-trio/) |
 | **Day 11** | `day-11-pricing-toggle` | Interactive pricing toggle component with JS | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-11-pricing-toggle/) |
+| **Day 12** | `day-12-before-after` | Interactive Before/After photo slider | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-12-before-after/) |
