@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeeTrio Edit Retouch Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="showcase-container">
+        <div class="header">
+            <span class="tag">RETOUCHING & EDITING</span>
+            <h2>Raw vs. Final Edit</h2>
+            <p>Drag the slider to reveal the difference</p>
+        </div>
+
+        <!-- Comparison Slider Container -->
+        <div class="comparison-container" id="comparison-slider">
+            <!-- After Image (Background) -->
+            <div class="img-wrapper after-img">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=80"
+                    alt="Edited Photo">
+                <span class="label label-after">FINAL EDIT</span>
+            </div>
+
+            <!-- Before Image (Clipped Foreground) -->
+            <div class="img-wrapper before-img" id="before-wrapper">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=80"
+                    alt="Raw Photo" class="grayscale-raw">
+                <span class="label label-before">RAW UNEDITED</span>
+            </div>
+
+            <!-- Range Input Slider -->
+            <input type="range" min="0" max="100" value="50" class="slider" id="slider-input">
+
+            <!-- Visual Divider Line -->
+            <div class="handle" id="slider-handle">
+                <div class="handle-line"></div>
+                <div class="handle-button">↔</div>
+                <div class="handle-line"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
