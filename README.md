@@ -19,3 +19,4 @@ Welcome to my daily web development practice repository! Here I document my jour
 | **Day 11** | `day-11-pricing-toggle` | Interactive pricing toggle component with JS | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-11-pricing-toggle/) |
 | **Day 12** | `day-12-before-after` | Interactive Before/After photo slider | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-12-before-after/) |
 | **Day 13** | `day-13-faq-accordion` | Interactive smooth FAQ accordion with JS | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-13-faq-accordion/) |
+| **Day 14** | `day-14-modal-lightbox` | Interactive modal lightbox gallery popup | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-14-modal-lightbox/) |
