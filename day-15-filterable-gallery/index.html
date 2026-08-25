@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeeTrio Filterable Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="gallery-container">
+        <div class="header">
+            <span class="tag">PORTFOLIO</span>
+            <h2>Filterable Gallery</h2>
+            <p>Select a category to filter through our work</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="portraits">Portraits</button>
+            <button class="filter-btn" data-filter="events">Events</button>
+            <button class="filter-btn" data-filter="fashion">Fashion</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+            <div class="gallery-item portraits">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80"
+                    alt="Portrait Shoot">
+                <div class="item-info"><span>Portraits</span></div>
+            </div>
+
+            <div class="gallery-item events">
+                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=500&q=80"
+                    alt="Event Photography">
+                <div class="item-info"><span>Events</span></div>
+            </div>
+
+            <div class="gallery-item fashion">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=500&q=80"
+                    alt="Fashion Shoot">
+                <div class="item-info"><span>Fashion</span></div>
+            </div>
+
+            <div class="gallery-item portraits">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80"
+                    alt="Headshot Portrait">
+                <div class="item-info"><span>Portraits</span></div>
+            </div>
+
+            <div class="gallery-item events">
+                <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=500&q=80"
+                    alt="Celebration Event">
+                <div class="item-info"><span>Events</span></div>
+            </div>
+
+            <div class="gallery-item fashion">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=80"
+                    alt="Editorial Fashion">
+                <div class="item-info"><span>Fashion</span></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
