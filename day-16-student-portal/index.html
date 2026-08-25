@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Michigan - Student Portal Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="portal-card">
+        <!-- Left Visual Panel -->
+        <div class="portal-banner">
+            <img id="banner-img"
+                src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80"
+                alt="University Campus Library">
+            <div class="banner-overlay">
+                <span class="m-badge">M</span>
+                <h2>Wolverine Portal</h2>
+                <p>Official Academic Registration & Enrollment System</p>
+            </div>
+        </div>
+
+        <!-- Right Interactive Registration Form -->
+        <div class="portal-form-container">
+            <div class="form-header">
+                <span class="step-indicator" id="step-badge">Step 1 of 2</span>
+                <h3>Student Account Setup</h3>
+            </div>
+
+            <!-- Step 1: Personal Info -->
+            <div class="form-step active" id="step-1">
+                <div class="input-group">
+                    <label for="fullname">Full Legal Name</label>
+                    <input type="text" id="fullname" placeholder="e.g. Jane Doe">
+                </div>
+
+                <div class="input-group">
+                    <label for="umid">UMID (8-Digit Student ID)</label>
+                    <input type="text" id="umid" maxlength="8" placeholder="e.g. 12345678">
+                </div>
+
+                <div class="input-group">
+                    <label for="major">Primary Major / Field</label>
+                    <select id="major">
+                        <option value="">Select Department...</option>
+                        <option value="is">Information Systems</option>
+                        <option value="cs">Computer Science</option>
+                        <option value="eng">Engineering</option>
+                        <option value="bus">Business Administration</option>
+                    </select>
+                </div>
+
+                <button class="btn-primary" id="next-btn">Continue to Security Step &rarr;</button>
+            </div>
+
+            <!-- Step 2: Credentials -->
+            <div class="form-step" id="step-2">
+                <div class="input-group">
+                    <label for="email">Uniqname Email</label>
+                    <input type="email" id="email" placeholder="uniqname@umich.edu">
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Create Portal Password</label>
+                    <input type="password" id="password" placeholder="••••••••••••">
+                </div>
+
+                <div class="button-row">
+                    <button class="btn-secondary" id="back-btn">&larr; Back</button>
+                    <button class="btn-primary" id="submit-btn">Complete Registration</button>
+                </div>
+            </div>
+
+            <!-- Success Screen -->
+            <div class="form-step" id="step-success">
+                <div class="success-box">
+                    <div class="checkmark">✓</div>
+                    <h4>Registration Complete!</h4>
+                    <p>Your Michigan Wolverine portal account is now active.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
