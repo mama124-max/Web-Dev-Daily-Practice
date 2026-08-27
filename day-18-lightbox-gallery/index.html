@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 18 - Lightbox Media Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h2>Portfolio Showcase</h2>
+            <p>Click any shoot thumbnail to expand high-resolution preview</p>
+        </header>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img class="gallery-img"
+                    src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80"
+                    data-full="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=80"
+                    data-caption="Editorial Studio Session — Direct Flash Concept" alt="Studio Portrait">
+            </div>
+
+            <div class="gallery-item">
+                <img class="gallery-img"
+                    src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80"
+                    data-full="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80"
+                    data-caption="Urban Outdoor Portrait — Natural Soft Lighting" alt="Outdoor Portrait">
+            </div>
+
+            <div class="gallery-item">
+                <img class="gallery-img"
+                    src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80"
+                    data-full="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80"
+                    data-caption="Golden Hour Event Collection — Sunset Tones" alt="Golden Hour Shoot">
+            </div>
+
+            <div class="gallery-item">
+                <img class="gallery-img"
+                    src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=600&q=80"
+                    data-full="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80"
+                    data-caption="Live Event Coverage — High-Contrast Mood" alt="Event Coverage">
+            </div>
+
+            <div class="gallery-item">
+                <img class="gallery-img"
+                    src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=600&q=80"
+                    data-full="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1200&q=80"
+                    data-caption="High-Fashion Lookbook — Studio Lighting" alt="Fashion Shoot">
+            </div>
+
+            <div class="gallery-item">
+                <img class="gallery-img"
+                    src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=600&q=80"
+                    data-full="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80"
+                    data-caption="Celebration & Event Details — Direct Flash" alt="Celebration Shoot">
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="modal" id="lightbox-modal">
+        <span class="close-btn" id="close-btn">&times;</span>
+        <div class="modal-content">
+            <img id="modal-img" src="" alt="Expanded View">
+            <p id="modal-caption" class="caption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
