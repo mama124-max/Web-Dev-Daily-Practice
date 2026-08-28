@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 20 - Interactive GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="calculator-card">
+        <header class="card-header">
+            <div class="header-text">
+                <h2>Academic GPA Calculator</h2>
+                <p>Track course performance and compute real-time cumulative GPA</p>
+            </div>
+
+            <!-- Real-Time GPA Metric Display -->
+            <div class="gpa-badge-card">
+                <span class="gpa-label">Cumulative GPA</span>
+                <h1 id="gpa-display">0.00</h1>
+                <span class="credits-count" id="total-credits">0 Total Credits</span>
+            </div>
+        </header>
+
+        <!-- Input Control Form -->
+        <div class="input-form">
+            <input type="text" id="course-name" placeholder="Course Name (e.g. Data Structures)" autocomplete="off">
+
+            <select id="course-credits">
+                <option value="" disabled selected>Credits</option>
+                <option value="1">1 Credit</option>
+                <option value="2">2 Credits</option>
+                <option value="3">3 Credits</option>
+                <option value="4">4 Credits</option>
+            </select>
+
+            <select id="course-grade">
+                <option value="" disabled selected>Grade</option>
+                <option value="4.0">A (4.0)</option>
+                <option value="3.5">B+ (3.5)</option>
+                <option value="3.0">B (3.0)</option>
+                <option value="2.5">C+ (2.5)</option>
+                <option value="2.0">C (2.0)</option>
+                <option value="1.0">D (1.0)</option>
+                <option value="0.0">F (0.0)</option>
+            </select>
+
+            <button id="add-course-btn">Add Course</button>
+        </div>
+
+        <!-- Dynamic Course List -->
+        <div class="table-container">
+            <ul class="course-list" id="course-list">
+                <!-- Dynamic content injected by JS -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
