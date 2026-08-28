@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 19 - Interactive Task Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="planner-card">
+        <header class="planner-header">
+            <h2>Study & Project Planner</h2>
+            <p>Organize your daily tasks and track your completion progress.</p>
+
+            <!-- Real-time Progress Bar -->
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="progress-stats">
+                <span id="progress-text">0 of 0 tasks completed</span>
+                <span id="progress-percent">0%</span>
+            </div>
+        </header>
+
+        <!-- Input Control Bar -->
+        <div class="input-section">
+            <input type="text" id="task-input" placeholder="Add a new task or assignment..." autocomplete="off">
+            <select id="category-select">
+                <option value="Study">Study</option>
+                <option value="Code">Code</option>
+                <option value="Personal">Personal</option>
+            </select>
+            <button id="add-task-btn">Add Task</button>
+        </div>
+
+        <!-- Dynamic Task List -->
+        <ul class="task-list" id="task-list">
+            <!-- Tasks dynamically injected by JS -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
