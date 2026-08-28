@@ -24,3 +24,4 @@ Welcome to my daily web development practice repository! Here I document my jour
 | **Day 16** | `day-16-student-portal` | Michigan Student Portal registration component with JS step switcher | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-16-student-portal/) |
 | **Day 17** | `day-17-course-filter` | Interactive course catalog with JS dynamic category filtering | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-17-course-filter/) |
 | **Day 18** | `day-18-lightbox-gallery` | Interactive lightbox image gallery modal with dynamic captions | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-18-lightbox-gallery/) |
+| **Day 19** | `day-19-task-planner` | Dynamic task planner dashboard with DOM array state & progress calculation | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-19-task-planner/) |
