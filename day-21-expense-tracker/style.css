@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top right, #064e3b, #022c22, #051914);
+  color: #f0fdf4;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.tracker-card {
+  background: rgba(6, 78, 59, 0.35);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+  max-width: 740px;
+  width: 100%;
+  border-radius: 24px;
+  padding: 36px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+  gap: 20px;
+}
+
+.header-text h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #34d399, #10b981, #2dd4bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 6px;
+}
+
+.header-text p {
+  color: #a7f3d0;
+  font-size: 0.88rem;
+  max-width: 320px;
+  opacity: 0.8;
+}
+
+/* Mint Emerald Highlight Box */
+.total-badge-card {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.25), rgba(45, 212, 191, 0.15));
+  border: 1px solid rgba(52, 211, 153, 0.4);
+  padding: 16px 24px;
+  border-radius: 18px;
+  text-align: center;
+  min-width: 170px;
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.15);
+}
+
+.total-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #6ee7b7;
+  font-weight: 700;
+}
+
+.total-badge-card h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.1;
+  margin: 4px 0;
+  text-shadow: 0 0 10px rgba(52, 211, 153, 0.3);
+}
+
+.entry-count {
+  font-size: 0.75rem;
+  color: #a7f3d0;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+/* Input Controls */
+.input-form {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.2fr 1.2fr;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.input-form input,
+.input-form select {
+  padding: 12px 14px;
+  background: rgba(2, 44, 34, 0.6);
+  border: 1px solid rgba(52, 211, 153, 0.25);
+  border-radius: 10px;
+  font-size: 0.88rem;
+  color: #f0fdf4;
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.input-form input::placeholder {
+  color: #059669;
+}
+
+.input-form input:focus,
+.input-form select:focus {
+  border-color: #34d399;
+  box-shadow: 0 0 0 3px rgba(52, 211, 153, 0.2);
+}
+
+.input-form select option {
+  background: #022c22;
+  color: #f0fdf4;
+}
+
+.input-form button {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
+}
+
+.input-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.5);
+  background: linear-gradient(135deg, #34d399, #10b981);
+}
+
+/* Transaction List Items */
+.expense-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.expense-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  background: rgba(2, 44, 34, 0.45);
+  border: 1px solid rgba(52, 211, 153, 0.15);
+  border-radius: 12px;
+  transition: all 0.25s ease;
+}
+
+.expense-item:hover {
+  background: rgba(2, 44, 34, 0.7);
+  border-color: rgba(52, 211, 153, 0.35);
+  transform: translateX(3px);
+}
+
+.expense-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.expense-info h4 {
+  font-size: 0.95rem;
+  color: #f0fdf4;
+  font-weight: 600;
+}
+
+.category-badge {
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: rgba(45, 212, 191, 0.15);
+  color: #2dd4bf;
+  border: 1px solid rgba(45, 212, 191, 0.3);
+}
+
+.expense-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.expense-amount {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #6ee7b7;
+}
+
+.delete-btn {
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  color: #f87171;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.delete-btn:hover {
+  background: #ef4444;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.4);
+}
+
+@media (max-width: 640px) {
+  .card-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .input-form {
+    grid-template-columns: 1fr;
+  }
+}

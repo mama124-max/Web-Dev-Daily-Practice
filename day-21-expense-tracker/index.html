@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 21 - Interactive Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="tracker-card">
+        <header class="card-header">
+            <div class="header-text">
+                <h2>Expense & Budget Tracker</h2>
+                <p>Monitor daily spending and review itemized category breakdowns</p>
+            </div>
+
+            <!-- Real-Time Spending Metric Display -->
+            <div class="total-badge-card">
+                <span class="total-label">Total Spent</span>
+                <h1 id="total-display">$0.00</h1>
+                <span class="entry-count" id="entry-count">0 Transactions</span>
+            </div>
+        </header>
+
+        <!-- Input Control Form -->
+        <div class="input-form">
+            <input type="text" id="expense-title" placeholder="Expense Title (e.g. Groceries)" autocomplete="off">
+            <input type="number" id="expense-amount" placeholder="Amount ($)" step="0.01" min="0">
+
+            <select id="expense-category">
+                <option value="" disabled selected>Category</option>
+                <option value="Food">Food & Dining</option>
+                <option value="Transport">Transport</option>
+                <option value="Utilities">Utilities</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <button id="add-expense-btn">Add Expense</button>
+        </div>
+
+        <!-- Dynamic Expense List -->
+        <div class="table-container">
+            <ul class="expense-list" id="expense-list">
+                <!-- Dynamic content injected by JS -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
