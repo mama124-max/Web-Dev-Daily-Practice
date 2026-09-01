@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 22 - Interactive Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="quiz-card">
+        <!-- Header Tracker -->
+        <header class="card-header">
+            <span class="quiz-badge" id="progress-text">Question 1 of 4</span>
+            <span class="score-badge" id="score-text">Score: 0</span>
+        </header>
+
+        <!-- Quiz Body -->
+        <div id="quiz-body">
+            <h2 id="question-text" class="question-text">Question text goes here</h2>
+
+            <div class="options-container" id="options-container">
+                <!-- Dynamic option buttons injected by JS -->
+            </div>
+        </div>
+
+        <!-- Results Screen (Hidden by Default) -->
+        <div id="results-screen" class="results-screen hidden">
+            <h2>Quiz Completed! 🎉</h2>
+            <p class="final-score" id="final-score">You scored 0 out of 4</p>
+            <button id="restart-btn" class="action-btn">Try Again</button>
+        </div>
+
+        <!-- Footer Action -->
+        <footer class="card-footer" id="card-footer">
+            <button id="next-btn" class="action-btn" disabled>Next Question</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
