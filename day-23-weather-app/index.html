@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 23 - Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="weather-card">
+        <!-- Search Bar -->
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name (e.g. Banjul, London)..."
+                autocomplete="off">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <!-- Quick Location Chips -->
+        <div class="quick-chips">
+            <button class="chip" data-city="Banjul">Banjul</button>
+            <button class="chip" data-city="London">London</button>
+            <button class="chip" data-city="Tokyo">Tokyo</button>
+            <button class="chip" data-city="New York">New York</button>
+        </div>
+
+        <!-- Main Display -->
+        <div class="weather-main">
+            <div class="weather-info">
+                <h2 id="city-name">Banjul</h2>
+                <p id="weather-date">Sunny & Warm</p>
+                <h1 id="temperature">31°C</h1>
+            </div>
+            <div class="weather-icon-badge" id="weather-icon">☀️</div>
+        </div>
+
+        <!-- Details Grid -->
+        <div class="metrics-grid">
+            <div class="metric-tile">
+                <span class="metric-label">Humidity</span>
+                <h3 id="humidity">68%</h3>
+            </div>
+            <div class="metric-tile">
+                <span class="metric-label">Wind Speed</span>
+                <h3 id="wind-speed">14 km/h</h3>
+            </div>
+            <div class="metric-tile">
+                <span class="metric-label">UV Index</span>
+                <h3 id="uv-index">8 (High)</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
