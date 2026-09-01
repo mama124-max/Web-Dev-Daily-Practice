@@ -27,3 +27,4 @@ Welcome to my daily web development practice repository! Here I document my jour
 | **Day 19** | `day-19-task-planner` | Dynamic task planner dashboard with DOM array state & progress calculation | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-19-task-planner/) |
 | **Day 20** | `day-20-gpa-calculator` | Interactive academic GPA calculator with weighted array logic & dark glass UI | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-20-gpa-calculator/) |
 | **Day 21** | `day-21-expense-tracker` | Interactive expense & budget dashboard with emerald glassmorphism styling | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-21-expense-tracker/) |
+| **Day 22** | `day-22-quiz-app` | Interactive multiple-choice quiz app with score tracking & violet glass UI | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-22-quiz-app/) |
