@@ -29,4 +29,3 @@ Welcome to my daily web development practice repository! Here I document my jour
 | **Day 21** | `day-21-expense-tracker` | Interactive expense & budget dashboard with emerald glassmorphism styling | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-21-expense-tracker/) |
 | **Day 22** | `day-22-quiz-app` | Interactive multiple-choice quiz app with score tracking & violet glass UI | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-22-quiz-app/) |
 | **Day 23** | `day-23-weather-app` | Dynamic weather search dashboard with sunset glassmorphism styling | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-23-weather-app/) |
-| **Day 24** | `day-24-clock-timer` | Live digital clock built with JavaScript `Date` object and `setInterval` | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-24-clock-timer/) |
