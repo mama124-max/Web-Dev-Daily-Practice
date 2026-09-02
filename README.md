@@ -26,3 +26,5 @@ Welcome to my daily web development practice repository! Here I document my jour
 | **Day 18** | `day-18-lightbox-gallery` | Interactive lightbox image gallery modal with dynamic captions | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-18-lightbox-gallery/) |
 | **Day 19** | `day-19-task-planner` | Dynamic task planner dashboard with DOM array state & progress calculation | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-19-task-planner/) |
 | **Day 20** | `day-20-gpa-calculator` | Interactive academic GPA calculator with weighted array logic & dark glass UI | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-20-gpa-calculator/) |
+| **Day 23** | `day-23-weather-app` | Dynamic weather search dashboard with sunset glassmorphism styling | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-23-weather-app/) |
+| **Day 24** | `day-24-clock-timer` | Live digital clock built with JavaScript `Date` object and `setInterval` | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-24-clock-timer/) |
