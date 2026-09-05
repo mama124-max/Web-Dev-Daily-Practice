@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 25 - Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="generator-card">
+        <header class="card-header">
+            <h2>Password Generator</h2>
+            <p>Create secure, customized passwords instantly.</p>
+        </header>
+
+        <!-- Display & Copy Box -->
+        <div class="display-container">
+            <input type="text" id="password-display" readonly placeholder="Click Generate...">
+            <button id="copy-btn" class="copy-btn">Copy</button>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <div class="length-control">
+                <label for="length-slider">Length: <span id="length-value">12</span></label>
+                <input type="range" id="length-slider" min="6" max="30" value="12">
+            </div>
+
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="include-uppercase" checked> Include Uppercase (A-Z)</label>
+                <label><input type="checkbox" id="include-lowercase" checked> Include Lowercase (a-z)</label>
+                <label><input type="checkbox" id="include-numbers" checked> Include Numbers (0-9)</label>
+                <label><input type="checkbox" id="include-symbols"> Include Symbols (!@#$)</label>
+            </div>
+        </div>
+
+        <button id="generate-btn" class="generate-btn">Generate Password</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
