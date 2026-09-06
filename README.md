@@ -31,3 +31,4 @@ Welcome to my daily web development practice repository! Here I document my jour
 | **Day 23** | `day-23-weather-app` | Dynamic weather search dashboard with sunset glassmorphism styling | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-23-weather-app/) |
 | **Day 24** | `day-24-clock-timer` | Live digital clock built with JavaScript `Date` object and `setInterval` | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-24-clock-timer/) |
 | **Day 25** | `day-25-password-generator` | Interactive password generator with strength options & clipboard API | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-25-password-generator/) |
+| **Day 26** | `day-26-accordion` | Interactive FAQ accordion component with smooth max-height animations | [View Live](https://mama124-max.github.io/Web-Dev-Daily-Practice/day-26-accordion/) |

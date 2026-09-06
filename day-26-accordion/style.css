@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  /* Rich deep emerald to charcoal background */
+  background: radial-gradient(circle at top left, #064e3b, #0f172a, #020617);
+  color: #f8fafc;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.accordion-container {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  max-width: 560px;
+  width: 100%;
+  border-radius: 24px;
+  padding: 32px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+}
+
+.accordion-header h2 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  /* Fresh Mint Accent */
+  color: #34d399;
+  margin-bottom: 4px;
+}
+
+.accordion-header p {
+  color: #94a3b8;
+  font-size: 0.88rem;
+  margin-bottom: 24px;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.accordion-item {
+  border: 1px solid rgba(16, 185, 129, 0.18);
+  border-radius: 14px;
+  overflow: hidden;
+  background: rgba(6, 78, 59, 0.15);
+  transition: all 0.3s ease;
+}
+
+.accordion-item.active {
+  border-color: rgba(52, 211, 153, 0.6);
+  background: rgba(6, 78, 59, 0.35);
+  box-shadow: 0 4px 20px rgba(52, 211, 153, 0.08);
+}
+
+.accordion-title {
+  width: 100%;
+  padding: 16px 20px;
+  background: none;
+  border: none;
+  color: #e2e8f0;
+  font-size: 0.98rem;
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-title:hover {
+  color: #34d399;
+}
+
+.icon {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #34d399;
+  transition: transform 0.3s ease;
+}
+
+.accordion-item.active .icon {
+  transform: rotate(45deg);
+  color: #a7f3d0;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+  padding: 0 20px;
+}
+
+.accordion-item.active .accordion-content {
+  padding: 0 20px 16px 20px;
+}
+
+.accordion-content p {
+  color: #cbd5e1;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}

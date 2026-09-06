@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 26 - Interactive Accordion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="accordion-container">
+        <header class="accordion-header">
+            <h2>Frequently Asked Questions</h2>
+            <p>Click a question to reveal the answer.</p>
+        </header>
+
+        <div class="accordion">
+            <!-- Item 1 -->
+            <div class="accordion-item">
+                <button class="accordion-title">
+                    <span>What is the Document Object Model (DOM)?</span>
+                    <span class="icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>The DOM is a programming interface for web documents. It represents the page so that programs can
+                        change the document structure, style, and content dynamically.</p>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="accordion-item">
+                <button class="accordion-title">
+                    <span>Why do we use `const` over `var` in modern JavaScript?</span>
+                    <span class="icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>`const` prevents variable re-assignment and provides block scoping, which eliminates bugs caused
+                        by scope hoisting inherent to `var`.</p>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="accordion-item">
+                <button class="accordion-title">
+                    <span>How does `Math.random()` generate random characters?</span>
+                    <span class="icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>`Math.random()` produces a decimal between 0 and 1. Multiplying this by a string pool's length
+                        and using `Math.floor()` gives a valid random index position.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
