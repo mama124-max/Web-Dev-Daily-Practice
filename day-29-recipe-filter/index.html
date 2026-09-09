@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 29 - Recipe Search & Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+        <header class="app-header">
+            <h2>Recipe Finder</h2>
+            <p>Discover and filter delicious meal ideas instantly.</p>
+        </header>
+
+        <!-- Controls -->
+        <div class="controls-section">
+            <input type="text" id="search-input" placeholder="Search recipes by name...">
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="breakfast">Breakfast</button>
+                <button class="filter-btn" data-category="main">Main Course</button>
+                <button class="filter-btn" data-category="dessert">Desserts</button>
+            </div>
+        </div>
+
+        <!-- Recipe Grid -->
+        <div id="recipe-grid" class="recipe-grid">
+            <!-- Recipe cards render dynamically -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
